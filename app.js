@@ -1,7 +1,20 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-createManager();
+async function Start() {
+	try {
+		var manager = await createManager();
+		var team = await createTeam();
+		var engineer = await createEngineer();
+		var intern = await createIntern();
+	} catch (err) {
+		console.log(err);
+	}
+}
+
+Start();
+
+// let { manager } = await createManager();
 function createManager() {
 	return inquirer.prompt([
 		{
@@ -27,8 +40,6 @@ function createManager() {
 	]);
 }
 
-createTeam();
-
 function createTeam() {
 	return inquirer.prompt([
 		{
@@ -39,8 +50,6 @@ function createTeam() {
 		}
 	]);
 }
-
-createEngineer();
 
 function createEngineer() {
 	return inquirer.prompt([
@@ -66,8 +75,6 @@ function createEngineer() {
 		}
 	]);
 }
-
-createIntern();
 
 function createIntern() {
 	return inquirer.prompt([

@@ -53,3 +53,5 @@ function generateHTML() {
     </html>
     `;
 }
+
+module.exports = generateHTML;
