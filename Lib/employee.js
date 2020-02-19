@@ -1,4 +1,4 @@
-// Created Employee Class to use for rest of
+// Created Employee Class to use for rest of team roles.
 
 class Employee {
 	constructor(name, id, email) {

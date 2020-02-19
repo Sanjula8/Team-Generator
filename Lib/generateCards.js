@@ -1,7 +1,7 @@
 const fs = require("fs");
 const util = require("util");
 const writeFileSync = util.promisify(fs.writeFile);
-const createHTML = require("./createHTML");
+const createHTML = require("./generateHTML");
 
 const generateCards = (managerObj, engineerObj, internObj) => {
 	const createManager = managerObj.map(manager => {
@@ -14,9 +14,8 @@ const generateCards = (managerObj, engineerObj, internObj) => {
         <div class="card-body">
             <ul class="list-group">
                 <li class="list-group-item">ID: ${manager.id}</li>
-                <li class="list-group-item">Email: ${
-					manager.email
-				}<a href="mailto:${manager.email}"></a></li>
+                <li class="list-group-item">Email: ${manager.email}
+                <a href="mailto:${manager.email}"></a></li>
                 <li class="list-group-item">Office number: ${manager.getOfficeNumber()}</li>
             </ul>
         </div>
@@ -33,9 +32,8 @@ const generateCards = (managerObj, engineerObj, internObj) => {
         <div class="card-body">
             <ul class="list-group">
                 <li class="list-group-item">ID: ${engineer.id}</li>
-                <li class="list-group-item">Email: ${
-					engineer.email
-				}<a href="mailto:${engineer.email}"></a></li>
+                <li class="list-group-item">Email: ${engineer.email}
+                <a href="mailto:${engineer.email}"></a></li>
                 <li class="list-group-item">GitHub: <a href="https://github.com/${engineer.getGithub()}" target="_blank">${engineer.getGithub()}</a></li>
             </ul>
         </div>
@@ -52,9 +50,8 @@ const generateCards = (managerObj, engineerObj, internObj) => {
         <div class="card-body">
             <ul class="list-group">
                 <li class="list-group-item">ID: ${intern.id}</li>
-                <li class="list-group-item">Email: ${
-					intern.email
-				}<a href="mailto:${intern.email}"></a></li>
+                <li class="list-group-item">Email: ${intern.email}
+                <a href="mailto:${intern.email}"></a></li>
                 <li class="list-group-item">School: ${intern.school}</li>
             </ul>
         </div>

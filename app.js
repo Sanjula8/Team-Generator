@@ -49,17 +49,12 @@ function createManager() {
 			}
 		])
 
-		.then(function({
-			managerName,
-			managerId,
-			managerEmail,
-			managerOffice
-		}) {
+		.then(function({ managerName, managerId, managerEmail, managerPhone }) {
 			const manager = new Manager(
 				managerName,
 				managerId,
 				managerEmail,
-				managerOffice
+				managerPhone
 			);
 			managerArray.push(manager);
 			createTeam();
@@ -94,6 +89,7 @@ function createTeam() {
 					generateCards(managerArray, engineerArray, internArray);
 			}
 		});
+	console.log(answer);
 }
 
 function createEngineer() {
