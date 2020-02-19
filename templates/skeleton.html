@@ -32,22 +32,26 @@
 		/>
 		<style>
 			body {
-				background-color: rgb(147, 141, 141, 0.5);
+				background-image: url("https://previews.123rf.com/images/kantver/kantver1709/kantver170900112/86248622-concept-of-digital-diagram-graph-interfaces-virtual-screen-connections-icon-on-blurred-background-bu.jpg");
 			}
 			.jumbotron {
 				font-family: "Krona One", sans-serif;
-				background-color: gray;
-				background-image: url("https://mdbootstrap.com/img/Photos/Others/architecture.jpg");
-				background-size: auto 100%;
-				color: rgb(227, 227, 97);
-				-webkit-text-stroke: 1px black;
+				background-color: rgba(19, 33, 41, 0.5);
+				background-size: 100% 100%;
+				color: white;
 			}
 			.card {
-				background-color: rgb(227, 227, 97);
+				background-color: rgba(255, 255, 255, 0.5);
 			}
 
 			.card-title {
 				font-family: "Raleway", sans-serif;
+				color: rgb(0, 0, 0);
+			}
+
+			.list-group-item {
+				background-color: white;
+				font-size: 18px;
 			}
 		</style>
 	</head>
@@ -69,7 +73,7 @@
 				>
 					<div class="card employee-card ml-3">
 						<div class="card-header">
-							<h2 class="card-title">Bill Bob</h2>
+							<h2 class="card-title">Michael Scott</h2>
 							<h3 class="card-title ">
 								<i class="fas fa-user-tie mr-3"></i>Manager
 							</h3>
@@ -77,14 +81,16 @@
 						<div class="card-body">
 							<ul class="list-group">
 								<li class="list-group-item">
-									ID: ID Thingy
+									ID: Regional Manager - Scranton
 								</li>
 								<li class="list-group-item">
-									Email: manager@email.com
-									<a href="mailto:manager@email.com"></a>
+									Email: michael.scott@dundermifflin.com
+									<a
+										href="mailto:michael.scott@dundermifflin.com"
+									></a>
 								</li>
 								<li class="list-group-item">
-									Office number: 999-999-9999
+									Office Number: 999-999-9999
 								</li>
 							</ul>
 						</div>
@@ -92,26 +98,29 @@
 
 					<div class="card employee-card ml-3">
 						<div class="card-header">
-							<h2 class="card-title">Jim Bo</h2>
+							<h2 class="card-title">Dwight Schrute</h2>
 							<h3 class="card-title">
-								<i class="fas fa-user-cog mr-3"></i>Engineer
+								<i class="fas fa-user-cog mr-3"></i>Assisstant
+								Manager
 							</h3>
 						</div>
 						<div class="card-body">
 							<ul class="list-group">
 								<li class="list-group-item">
-									ID: ${engineer.id}
+									ID: Assistant to the Regional Manager
 								</li>
 								<li class="list-group-item">
-									Email: ${engineer.email}
-									<a href="mailto:${engineer.email}"></a>
+									Email: dwightkschrute@dwightfarms.com
+									<a
+										href="mailto:dwightkschrute@dwightfarms.com"
+									></a>
 								</li>
 								<li class="list-group-item">
 									GitHub:
 									<a
-										href="https://github.com/${engineer.getGithub()}"
+										href="https://github.com/DwightKSchrute"
 										target="_blank"
-										>${engineer.getGithub()}</a
+										>DwightKSchrute</a
 									>
 								</li>
 							</ul>
@@ -120,7 +129,7 @@
 
 					<div class="card employee-card ml-3">
 						<div class="card-header">
-							<h2 class="card-title">Alistar McCrambles</h2>
+							<h2 class="card-title">Creed Bratton</h2>
 							<h3 class="card-title">
 								<i class="fas fa-user-graduate mr-3"></i>Intern
 							</h3>
@@ -128,14 +137,16 @@
 						<div class="card-body">
 							<ul class="list-group">
 								<li class="list-group-item">
-									ID: ${intern.id}
+									ID: Hippie
 								</li>
 								<li class="list-group-item">
-									Email: ${intern.email}
-									<a href="mailto:${intern.email}"></a>
+									Email: creed.bratton@creedthoughts.com
+									<a
+										href="mailto:creed.bratton@creedthoughts.com"
+									></a>
 								</li>
 								<li class="list-group-item">
-									School: ${intern.school}
+									School: Business School
 								</li>
 							</ul>
 						</div>

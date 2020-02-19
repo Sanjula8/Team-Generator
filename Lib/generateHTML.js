@@ -41,27 +41,29 @@ const generateHTML = (managerCard, engineerCard, internCard) => {
         
         <style>
         body {
-            background-color: rgb(147, 141, 141, 0.5);
+            background-image: url("https://previews.123rf.com/images/kantver/kantver1709/kantver170900112/86248622-concept-of-digital-diagram-graph-interfaces-virtual-screen-connections-icon-on-blurred-background-bu.jpg");
         }
         .jumbotron {
             font-family: "Krona One", sans-serif;
-            background-color: gray;
-            background-image: url("https://mdbootstrap.com/img/Photos/Others/architecture.jpg");
-            background-size: auto 100%;
-            color: rgb(227, 227, 97);
-            -webkit-text-stroke: 1px black;
+            background-color: rgba(19, 33, 41, 0.5);
+            background-size: 100% 100%;
+            color: white;
         }
         .card {
-            background-color: rgb(227, 227, 97);
+            background-color: rgba(255, 255, 255, 0.5);
         }
 
         .card-title {
             font-family: "Raleway", sans-serif;
+            color: rgb(0, 0, 0);
         }
 
+        .list-group-item {
+            background-color: white;
+            font-size: 18px;
+        }
     </style>
 
-    
         </head>
         <body>
             <div class="jumbotron jumbotron-fluid">
