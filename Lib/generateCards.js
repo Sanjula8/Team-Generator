@@ -9,7 +9,9 @@ const generateCards = (managerObj, engineerObj, internObj) => {
     <div class="card employee-card ml-3">
         <div class="card-header">
             <h2 class="card-title">${manager.name}</h2>
-            <h3 class="card-title"><i class="fas fa-user-tie mr-3"></i>${manager.getRole()}</h3>
+            <h3 class="card-title ">
+			<i class="fas fa-user-tie mr-3"></i>${manager.getRole()}
+			</h3>
         </div>
         <div class="card-body">
             <ul class="list-group">
@@ -27,7 +29,9 @@ const generateCards = (managerObj, engineerObj, internObj) => {
     <div class="card employee-card ml-3">
         <div class="card-header">
             <h2 class="card-title">${engineer.name}</h2>
-            <h3 class="card-title"><i class="fas fa-user-cog mr-3"></i>${engineer.getRole()}</h3>
+            <h3 class="card-title">
+            <i class="fas fa-user-cog mr-3"></i>${engineer.getRole()}
+			</h3>
         </div>
         <div class="card-body">
             <ul class="list-group">
@@ -45,7 +49,9 @@ const generateCards = (managerObj, engineerObj, internObj) => {
     <div class="card employee-card ml-3">
         <div class="card-header">
             <h2 class="card-title">${intern.name}</h2>
-            <h3 class="card-title"><i class="fas fa-user-graduate mr-3"></i>${intern.getRole()}</h3>
+            <h3 class="card-title">
+			<i class="fas fa-user-graduate mr-3"></i>${intern.getRole()}
+			</h3>
         </div>
         <div class="card-body">
             <ul class="list-group">

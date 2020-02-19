@@ -19,6 +19,49 @@ const generateHTML = (managerCard, engineerCard, internCard) => {
                 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
                 crossorigin="anonymous"
             />
+            <link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+			integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Krona+One&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+			rel="stylesheet"
+		/>
+            <link
+			href="https://fonts.googleapis.com/css?family=Krona+One&display=swap"
+			rel="stylesheet"
+        />
+        
+        
+        <style>
+        body {
+            background-color: rgb(147, 141, 141, 0.5);
+        }
+        .jumbotron {
+            font-family: "Krona One", sans-serif;
+            background-color: gray;
+            background-image: url("https://mdbootstrap.com/img/Photos/Others/architecture.jpg");
+            background-size: auto 100%;
+            color: rgb(227, 227, 97);
+            -webkit-text-stroke: 1px black;
+        }
+        .card {
+            background-color: rgb(227, 227, 97);
+        }
+
+        .card-title {
+            font-family: "Raleway", sans-serif;
+        }
+
+    </style>
+
+    
         </head>
         <body>
             <div class="jumbotron jumbotron-fluid">

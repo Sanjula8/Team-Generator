@@ -89,7 +89,6 @@ function createTeam() {
 					generateCards(managerArray, engineerArray, internArray);
 			}
 		});
-	console.log(answer);
 }
 
 function createEngineer() {
