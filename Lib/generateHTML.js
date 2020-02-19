@@ -1,4 +1,4 @@
-function generateHTML() {
+const generateHTML = (managerCard, engineerCard, internCard) => {
 	return `
 
     <!DOCTYPE html>
@@ -31,6 +31,16 @@ function generateHTML() {
                     </div>
                 </div>
             </div>
+
+            <div class="container">
+            <div class="row">
+                <div class="team-area col-12 d-flex justify-content-center mt-4">
+                    ${managerCard}
+                    ${engineerCard}
+                    ${internCard}
+                </div>
+            </div>
+        </div>
     
             <!-- Optional JavaScript -->
             <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -52,6 +62,6 @@ function generateHTML() {
         </body>
     </html>
     `;
-}
+};
 
 module.exports = generateHTML;
