@@ -18,7 +18,7 @@ const generateCards = (managerObj, engineerObj, internObj) => {
                 <li class="list-group-item">ID: ${manager.id}</li>
                 <li class="list-group-item">Email: ${manager.email}
                 <a href="mailto:${manager.email}"></a></li>
-                <li class="list-group-item">Office number: ${manager.getOfficeNumber()}</li>
+                <li class="list-group-item">Office Number: ${manager.getOfficeNumber()}</li>
             </ul>
         </div>
     </div>`;
