@@ -101,7 +101,7 @@ function createEngineer() {
 			},
 			{
 				type: "input",
-				name: "engineerID",
+				name: "engineerId",
 				message: "Please enter the ID of the engineer:"
 			},
 			{
@@ -142,7 +142,7 @@ function createIntern() {
 			},
 			{
 				type: "input",
-				name: "internID",
+				name: "internId",
 				message: "Please enter the ID of the intern:"
 			},
 			{
