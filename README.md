@@ -10,4 +10,4 @@ In additiona, this application has been tested with to ensure all parts are func
 
 Below is a example of showing demonstrating the final product - the generated HTML page.
 
-[Team HTML](./Assets/team-demo.png)
+![Team HTML](./Assets/team-demo.png)
